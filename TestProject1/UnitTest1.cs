@@ -33,5 +33,38 @@ namespace TestProject1
 
         }
 
+
+
+        [TestMethod]
+        public void ForEmpty()
+        {
+            try
+            {
+                string message = "";
+                MoodAnalyser moodAnalyser = new MoodAnalyser(message);
+                string mood = moodAnalyser.AnalyseMood();
+            }
+            catch (MoodAnalyserCustomException e)
+            {
+
+                Assert.AreEqual("Mood should not be Empty", e.Message);
+            }
+        }
+        [TestMethod]
+        public void ForNull()
+        {
+            try
+            {
+                string message = null;
+                MoodAnalyser moodAnalyser = new MoodAnalyser(message);
+                string mood = moodAnalyser.AnalyseMood();
+            }
+            catch (MoodAnalyserCustomException e)
+            {
+
+                Assert.AreEqual("Mood should not be null", e.Message);
+            }
+        }
+
     }
 }
