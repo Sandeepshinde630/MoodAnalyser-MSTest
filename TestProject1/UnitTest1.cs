@@ -18,6 +18,20 @@ namespace TestProject1
             Assert.AreEqual(expected, mood);
 
         }
-        
+        [TestMethod]
+
+        [DataRow(null)]
+        public void GivenSadMoodShouldReturnHappy(string message)
+        {
+            string expected = "Happy";
+
+            MoodAnalyser moodAnalyser = new MoodAnalyser(message);
+            //Act
+            string mood = moodAnalyser.AnalyseMood();
+            //Assert
+            Assert.AreEqual(expected, mood);
+
+        }
+
     }
 }
