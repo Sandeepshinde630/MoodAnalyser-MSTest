@@ -14,37 +14,18 @@ namespace MoodAnalyserMSTest
 
         public string AnalyseMood()
         {
-            //try
-            //{
-            //    if (this.message.Contains("Sad"))
-            //        return "SAD";
-            //    else
-            //        return "HAPPY";
-            //}
-            //catch
-            //{
-            //    return "Happy";
-            //}
             try
             {
-                if (this.message.Equals(string.Empty))
-                {
-                    throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.Empty_Message, "Mood should not be Empty");
-                }
                 if (this.message.Contains("Sad"))
-                {
                     return "SAD";
-                }
                 else
-                {
                     return "HAPPY";
-                }
             }
-            catch (NullReferenceException)
+            catch
             {
-
-                throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.Null_Message, "Mood should not be null");
+                return "Happy";
             }
+
         }
     }
 }
