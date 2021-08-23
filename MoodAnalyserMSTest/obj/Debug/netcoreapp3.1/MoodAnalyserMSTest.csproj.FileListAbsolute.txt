@@ -1,0 +1,13 @@
+C:\Users\Sandeep\Desktop\CSharp\MoodAnalyserMSTest\MoodAnalyserMSTest\bin\Debug\netcoreapp3.1\MoodAnalyserMSTest.exe
+C:\Users\Sandeep\Desktop\CSharp\MoodAnalyserMSTest\MoodAnalyserMSTest\bin\Debug\netcoreapp3.1\MoodAnalyserMSTest.deps.json
+C:\Users\Sandeep\Desktop\CSharp\MoodAnalyserMSTest\MoodAnalyserMSTest\bin\Debug\netcoreapp3.1\MoodAnalyserMSTest.runtimeconfig.json
+C:\Users\Sandeep\Desktop\CSharp\MoodAnalyserMSTest\MoodAnalyserMSTest\bin\Debug\netcoreapp3.1\MoodAnalyserMSTest.runtimeconfig.dev.json
+C:\Users\Sandeep\Desktop\CSharp\MoodAnalyserMSTest\MoodAnalyserMSTest\bin\Debug\netcoreapp3.1\MoodAnalyserMSTest.dll
+C:\Users\Sandeep\Desktop\CSharp\MoodAnalyserMSTest\MoodAnalyserMSTest\bin\Debug\netcoreapp3.1\MoodAnalyserMSTest.pdb
+C:\Users\Sandeep\Desktop\CSharp\MoodAnalyserMSTest\MoodAnalyserMSTest\obj\Debug\netcoreapp3.1\MoodAnalyserMSTest.csproj.AssemblyReference.cache
+C:\Users\Sandeep\Desktop\CSharp\MoodAnalyserMSTest\MoodAnalyserMSTest\obj\Debug\netcoreapp3.1\MoodAnalyserMSTest.AssemblyInfoInputs.cache
+C:\Users\Sandeep\Desktop\CSharp\MoodAnalyserMSTest\MoodAnalyserMSTest\obj\Debug\netcoreapp3.1\MoodAnalyserMSTest.AssemblyInfo.cs
+C:\Users\Sandeep\Desktop\CSharp\MoodAnalyserMSTest\MoodAnalyserMSTest\obj\Debug\netcoreapp3.1\MoodAnalyserMSTest.csproj.CoreCompileInputs.cache
+C:\Users\Sandeep\Desktop\CSharp\MoodAnalyserMSTest\MoodAnalyserMSTest\obj\Debug\netcoreapp3.1\MoodAnalyserMSTest.dll
+C:\Users\Sandeep\Desktop\CSharp\MoodAnalyserMSTest\MoodAnalyserMSTest\obj\Debug\netcoreapp3.1\MoodAnalyserMSTest.pdb
+C:\Users\Sandeep\Desktop\CSharp\MoodAnalyserMSTest\MoodAnalyserMSTest\obj\Debug\netcoreapp3.1\MoodAnalyserMSTest.genruntimeconfig.cache
