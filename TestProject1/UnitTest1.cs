@@ -74,5 +74,13 @@ namespace TestProject1
             expected.Equals(obj);
         }
 
+        [TestMethod]
+        public void GivenMoodAnalyseClassName_ShouldReturnMoodAnalyseObject_UsingParameterizedConstructor()
+        {
+            object expected = new MoodAnalyser("HAPPY");
+            object obj = MoodAnalyseFactory.CreateMoodAnalyseUsingParameterizedConstructor("MoodAnalyserMSTest.MoodAnalyser", "MoodAnalyser", "HAPPY");
+            expected.Equals(obj);
+        }
+
     }
 }
