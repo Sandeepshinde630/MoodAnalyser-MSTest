@@ -65,6 +65,14 @@ namespace TestProject1
                 Assert.AreEqual("Mood should not be null", e.Message);
             }
         }
+        [TestMethod]
+        public void GivenMoodAnalyseClassName_ShouldReturnMoodAnalyseObject()
+        {
+            string message = null;
+            object expected = new MoodAnalyser(message);
+            object obj = MoodAnalyseFactory.CreateMoodAnalyse("MoodAnalyserMSTest.MoodAnalyser", "MoodAnalyser");
+            expected.Equals(obj);
+        }
 
     }
 }

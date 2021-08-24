@@ -6,7 +6,11 @@ namespace MoodAnalyserMSTest
 {
     public class MoodAnalyser
     {
-        private string message;
+        public MoodAnalyser()
+        {
+
+        }
+        public string message;
         public MoodAnalyser(string message)
         {
             this.message = message;
